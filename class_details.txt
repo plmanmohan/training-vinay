@@ -1,0 +1,43 @@
+class1: 10.04.25: Intro, functional component, jsx
+class2: 11.04.25: props, render through loop, loop through object as element, Virtual Dom, Key
+class3: 12.04.25: class component. state, setstate, usestate, data passing between sublime, conditional rendering
+class4: 14.04.25: Lifecycle methods in class components
+class5: 15.04.25: Lifecycle methods in funtional components
+class6: 16.04.25: Router, protected route
+class7: 19.04.25: Ref, fowardRef
+
+
+
+
+
+Mounting Phase
+    - constructor()
+    - static getDerivedStateFromProps()
+    - render() ------------------------------>
+    - componentDidMount()-------------------->
+Update Phase
+    - static getDerivedStateFromProps()
+    - shouldComponentUpdate(nextProps, nextState)----------->
+    - render()
+    - getSnapshotBeforeUpdate(prevProps, prevState)
+    - componentDidUpdate(prevProps, prevState, snapshot)-------->
+Unmount phase
+    - componentWillUnmount()
+----------------------------------Functional componentDidMount
+componentDidMount()
+componentDidUpdate(prevProps, prevState, snapshot)
+componentWillUnmount()
+
+-----------------------------
+const timer = setInterval(() => {
+            setTime(new Date().toLocaleTimeString());
+        }, 1000);
+const timer = setInterval(() => {
+            setTime(new Date().toLocaleTimeString());
+        }, 1000);
+const timer = setInterval(() => {
+            setTime(new Date().toLocaleTimeString());
+        }, 1000);
+const timer = setInterval(() => {
+            setTime(new Date().toLocaleTimeString());
+        }, 1000);                        
