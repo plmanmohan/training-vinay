@@ -1,10 +1,14 @@
-import TaskManager from "./components/usereducercomp/TaskManager";
+import MyFooter from "./components/reduxcomponents/MyFooter";
+import TaskManagerRedux from "./components/reduxcomponents/TaskManagerRedux";
+import UserManager from "./components/reduxcomponents/UserManager";
 
 function App() {
   return (
-      <div className="App">
-       <TaskManager />
-      </div>
+    <div className="App">
+      <TaskManagerRedux />
+      <UserManager />
+      <MyFooter />
+    </div>
   );
 }
 
